@@ -1,3 +1,5 @@
+require "pry"
+
 def reformat_languages(language_hash)
   new_hash = {}  # Create a new hash to store data
   language_hash.each do |language_cat, languages| # Start iteration process over level 1
